@@ -1,0 +1,62 @@
+
+/*
+CSS adaptada de: Battleship Game, Geraldo Cabral, https://portfolium.com/Gerardo_Cabral
+*/
+
+#gameBoard {
+  margin: 0 auto;
+  height: 700px;
+  width: 700px;
+  background-color: black;
+  border-style: solid;
+  border-color: dodgerblue;
+  
+}
+
+.tile {
+    background-color: dodgerblue;
+    border-style: solid;
+    border-color: black;
+    font-family: Verdana;
+    color: dodgerblue;
+    text-align: center;
+}
+
+.tile-inv {
+    border-style:solid;
+    border-color: black;
+    font-family: Verdana;
+    text-align: center;
+    color:black;
+}
+
+.tile-letras {
+    border-color: black;
+    font-weight: bold;
+}
+
+.tile-numeros {
+    border-color: black ;
+    font-weight: bold;
+}
+
+
+.hit{
+  background-color: red;
+  color:black;
+
+  
+}
+
+
+.misses{
+  background-color: skyblue;
+  color:skyblue;
+}
+
+.fill {
+    background-color: chartreuse;
+    color: chartreuse;
+}
+
+
